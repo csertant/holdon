@@ -16,6 +16,7 @@ body {
     --default-color-shakespeare: #4BA2CA;
 }
 
+/* Header menu */
 header {
     position: fixed;
     display: flex;
@@ -44,9 +45,10 @@ header {
     height: 8vh;
 }
 
+/* Heading of the page */
 .head {
-    height: 100vh;
-    width: 100vw;
+    /*height: 100vh;
+    width: 100vw;*/
     background-color: var(--default-color-raffia);
     display: flex;
     flex-flow: row;
@@ -60,6 +62,51 @@ header {
     left: -10vh;
 }
 
+/* Footer */
+footer {
+  height: 70vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+}
+footer div:first-of-type {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-graphics img {
+  height: 50vh;
+}
+.social-link img {
+  height: 3vh;
+  max-width: 3vh;
+  margin-right: 1vw;
+}
+.credits {
+  width: 80vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: small;
+}
+
+/* Links */
+a {
+  color: var(--default-color-shakespeare);
+  text-decoration: none;
+  /*border: 1px solid transparent;*/
+  transition: all .3s;
+}
+a:hover {
+  color: black;
+  /*border-bottom: 1px solid;*/
+}
+
+/*------------- External code by don't know who from Codepen ----------------*/
 /*Hamburger menu*/
 .menu-icon {
     position: relative;
@@ -81,6 +128,7 @@ header {
   .menu-icon div {
     margin: auto;
     position: absolute;
+    overflow: visible;
     top: 0;
     right: 0;
     left: 0;
