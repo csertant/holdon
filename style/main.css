@@ -1,4 +1,5 @@
 /*
+    font-family: 'Cookie', cursive;
     font-family: 'Arbutus Slab', serif;
     font-family: 'Source Sans Pro', sans-serif;
 */
@@ -22,7 +23,7 @@ header {
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100vw;
     height: 10vh;
     overflow: hidden;
@@ -32,6 +33,19 @@ header {
 }
 .header-inactive {
     display: none;
+}
+.header-menus {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70vw;
+  margin-right: 15vh;
+  margin-left: 2vh;
+}
+.header-menus a {
+  margin-right: 2.5vh;
+  margin-left: 2.5vh;
 }
 .header-hamburger {
     position: fixed;
@@ -50,6 +64,10 @@ header {
     /*height: 100vh;
     width: 100vw;*/
     background-color: var(--default-color-raffia);
+    background-image: url("../assets/bg.png");
+    background-position: right;
+    background-size: contain;
+    background-attachment: fixed;
     display: flex;
     flex-flow: row;
     overflow: hidden;
@@ -60,6 +78,12 @@ header {
     position: relative;
     top: -7vh;
     left: -10vh;
+}
+.title {
+  position: relative;
+  top: 25vh;
+  font-family: 'Cookie', cursive;
+  font-size: 6rem;
 }
 
 /* Footer */
