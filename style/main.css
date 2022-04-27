@@ -62,8 +62,7 @@ header {
 
 /* Heading of the page */
 .head {
-    /*height: 100vh;
-    width: 100vw;*/
+    height: 100vh;
     background-color: var(--default-color-raffia);
     background-image: url("../assets/bg.png");
     background-position: right;
@@ -74,8 +73,8 @@ header {
     overflow: hidden;
 }
 .head-image, .head-image img {
-    width: 100vh;
-    height: 100vh;
+    max-width: 50vw;
+    max-height: 50vw;
     position: relative;
     top: -7vh;
     left: -10vh;
@@ -87,27 +86,70 @@ header {
   font-size: 6rem;
 }
 
-/* Footer */
-footer {
-  height: 70vh;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-around;
+@media screen and (max-width: 1000px) {
+  .head {
+    flex-flow: column;
+    position: static;
+    align-items: center;
+    justify-content: center;
+  }
+  .head-image, .head-image img {
+    max-height: 50vh;
+    position: static;
+  }
+  .title {
+    position: static;
+    font-size: 3rem;
+  }
 }
-footer div:first-of-type {
+
+/* Sections */
+.section {
+  min-height: 100vh;
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: space-evenly;
 }
+#project {
+  background-color: #e9e3bcb7;
+}
+#about {
+  background-color: #e9e3bc7e;
+}
+#donate {
+background-color: #e9e3bc25;
+}
+.section-title {
+  min-width: 20vw;
+  margin: 0 2vw;
+  text-align: center;
+}
+.section-content {
+  margin: 0 2vw;
+}
+
+/* Footer */
+footer {
+  height: 25vh;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.footer-left {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .footer-graphics img {
-  height: 50vh;
+  height: 23vh;
 }
 .social-link img {
   height: 3vh;
   max-width: 3vh;
-  margin-right: 1vw;
+  margin: 1vw;
 }
 .credits {
   width: 80vw;
@@ -117,6 +159,16 @@ footer div:first-of-type {
   justify-content: center;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: small;
+  margin: 2vh 0;
+}
+.footer-menus {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-menu-item {
+  margin: 2vh;
 }
 
 /* Links */
