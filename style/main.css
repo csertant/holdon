@@ -60,6 +60,18 @@ header {
     height: 8vh;
 }
 
+@media screen and (max-width: 800px) {
+  header {
+    flex-flow: column;
+    height: auto;
+  }
+  .header-menus {
+    flex-flow: column;
+    justify-content: center;
+    margin: 0 4vh;
+  }
+}
+
 /* Heading of the page */
 .head {
     height: 100vh;
@@ -115,10 +127,14 @@ header {
   background-color: #e9e3bcb7;
 }
 #about {
-  background-color: #e9e3bc7e;
+  background-color: #e9e3bc85;
 }
 #donate {
-background-color: #e9e3bc25;
+  background-color: #e9e3bc39;
+}
+#insta-content {
+  background-color: #e9e3bc17;
+  padding: 2vh;
 }
 .section-title {
   min-width: 20vw;
@@ -127,6 +143,15 @@ background-color: #e9e3bc25;
 }
 .section-content {
   margin: 0 2vw;
+}
+.embedsocial-hashtag {
+  min-width: 90vw;
+}
+
+@media screen and (max-width: 640px) {
+  .section {
+    flex-flow: column;
+  }
 }
 
 /* Footer */
@@ -146,6 +171,19 @@ footer {
 .footer-graphics img {
   height: 23vh;
 }
+.footer-menus {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-menu-item {
+  margin: 2vh;
+}
+.social-bar {
+  display: flex;
+  flex-flow: row;
+}
 .social-link img {
   height: 3vh;
   max-width: 3vh;
@@ -161,14 +199,17 @@ footer {
   font-size: small;
   margin: 2vh 0;
 }
-.footer-menus {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.footer-menu-item {
-  margin: 2vh;
+
+@media screen and (max-width: 640px) {
+  footer {
+    height: auto;
+  }
+  .social-bar {
+    flex-flow: column;
+  }
+  .footer-menus {
+    flex-flow: column;
+  }
 }
 
 /* Links */
