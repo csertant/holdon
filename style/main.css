@@ -142,15 +142,23 @@ header {
   text-align: center;
 }
 .section-content {
-  margin: 0 2vw;
+  margin: 1vh 2vw;
 }
 .embedsocial-hashtag {
   min-width: 90vw;
 }
+#members {
+  border-radius: 15px;
+  max-width: 33vw;
+  max-height: 80vh;
+}
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 850px) {
   .section {
     flex-flow: column;
+  }
+  #members {
+    max-width: 80vw;
   }
 }
 
