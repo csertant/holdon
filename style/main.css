@@ -70,6 +70,9 @@ header {
     justify-content: center;
     margin: 0 4vh;
   }
+  .header-menus a {
+    margin: 1vh 0;
+  }
 }
 
 /* Heading of the page */
@@ -135,6 +138,9 @@ header {
 #insta-content {
   background-color: #e9e3bc17;
   padding: 2vh;
+}
+#press {
+  background-color: #e9e3bc17;
 }
 .section-title {
   min-width: 20vw;
