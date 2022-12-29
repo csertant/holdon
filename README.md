@@ -1,2 +1,2 @@
-# tiny-web-projects
-Template for small front-end-only web projects
+# holdon
+Small static site for the [HoldOn](https://holdonprojekt.netlify.app) social responsibility project
