@@ -139,7 +139,11 @@
         </div>
         <div class="credits">
           <div>Ikonok: a Freepiktől, a Pixelperfecttől és a Google-től.</div>
-          <div>&copy;2021-<script>document.write(new Date().getFullYear())</script>&nbsp;HoldOn projekt. Minden jog fenntartva!</div>
+          <div>
+            <span id="current-year"></span>
+            <script>document.getElementById('current-year').appendChild(document.createTextNode("©2021-"+new Date().getFullYear()))</script>
+            <span>&nbsp;HoldOn projekt. Minden jog fenntartva!</span>
+          </div>
         </div>
       </div>
     </footer>
