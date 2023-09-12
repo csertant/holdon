@@ -79,7 +79,7 @@ header {
 .head {
     height: 100vh;
     background-color: var(--default-color-raffia);
-    background-image: url("../assets/bg.png");
+    background-image: url("../assets/bg.webp");
     background-position: right;
     background-size: contain;
     background-attachment: fixed;
