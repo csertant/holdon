@@ -61,7 +61,7 @@ header {
 }
 #language-selector {
     position: relative;
-    float: right;
+    top: 0.2vh;
 }
 
 @media screen and (max-width: 1000px) {

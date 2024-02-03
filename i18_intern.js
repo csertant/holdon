@@ -40,18 +40,18 @@ i18next
         ['legal', 'footer.legal'],
       ])
       updateElements([
-        ['project-title', 'project.project-title'],
-        ['project-p1', 'project.project-p1'],
-        ['project-p2', 'project.project-p2'],
-        ['project-p3', 'project.project-p3'],
-        ['about-title', 'about.about-title'],
-        ['about-p1', 'about.about-p1'],
-        ['about-p2', 'about.about-p2'],
-        ['donate-title', 'donate.donate-title'],
-        ['donate-p1', 'donate.donate-p1'],
-        ['donate-p2', 'donate.donate-p2'],
-        ['donate-p3', 'donate.donate-p3'],
-        ['press-title', 'press.press-title'],
+        ['project-title', 'content.project.project-title'],
+        ['project-p1', 'content.project.project-p1'],
+        ['project-p2', 'content.project.project-p2'],
+        ['project-p3', 'content.project.project-p3'],
+        ['about-title', 'content.about.about-title'],
+        ['about-p1', 'content.about.about-p1'],
+        ['about-p2', 'content.about.about-p2'],
+        ['donate-title', 'content.donate.donate-title'],
+        ['donate-p1', 'content.donate.donate-p1'],
+        ['donate-p2', 'content.donate.donate-p2'],
+        ['donate-p3', 'content.donate.donate-p3'],
+        ['press-title', 'content.press.press-title'],
       ])
   }
 
