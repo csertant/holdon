@@ -7,6 +7,7 @@ i18next
   .use(i18nextXHRBackend)
   .use(i18nextBrowserLanguageDetector)
   .init({
+    lng: 'hu',
     fallbackLng: 'hu',
     debug: true,
     backend: {
