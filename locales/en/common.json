@@ -1,0 +1,43 @@
+{
+    "head": {
+        "page-title": "HoldOn"
+    },
+    "navigation": {
+        "nav-link-project": "The project",
+        "nav-link-about": "About us",
+        "nav-link-donate": "Donate",
+        "nav-link-insta": "Educational content",
+        "nav-link-press": "Press"
+    },
+    "footer": {
+        "footer-link-project": "The project",
+        "footer-link-about": "About us",
+        "footer-link-donate": "Donate",
+        "footer-link-insta": "Educational content",
+        "footer-link-press": "Press",
+        "credits": "Icons by Freepik, Pixelperfect & Google.",
+        "legal": "&nbsp;HoldOn project. All rights reserved."
+    },
+    "content": {
+        "project": {
+            "project-title": "The project",
+            "project-p1": "We aim to assist women in reintegrating into society and everyday life, where proper hygiene is essential. As a first step, our goal is to support women in our proximity with basic hygiene products, such as sanitary pads.",
+            "project-p2": "In accordance with the sensitivity of the topic, we sought a solution that allows us to provide assistance without intruding, thus easing the sense of shame experienced by the women affected. We aim to create a safe space where they can access the necessary products at any time. To achieve this, in the fall of 2022, we installed a vending machine in the 8th district of Budapest, at a secure location, within the Józsefváros Family Support Center, where these products are available free of charge.  At the moment the vending machine provides help for 60-70 women per month.",
+            "project-p3": "Studies show that the issue of period poverty (the lack of access to menstrual hygiene products and the knowledge of their use) affects one in every five women, although this is likely not an exact figure given that the topic is still a taboo in our society. We aim to educate the public about the matter through posts shared on social media so that as many people as possible become familiar with the phenomenon. We believe that it is our common responsibility to protect the dignity of others, and we aim to be proactive and exemplary figures of this idea. We want to assist the most vulnerable so that they don’t perceive their femininity as a burden, that's why our choice fell on the 8th district, where numerous women and young girls are affected by the issue."
+        },
+        "about": {
+            "about-title": "About us",
+            "about-p1": "For us, HoldOn is not a flash-in-the-pan project sparked by a sudden burst of youthful enthusiasm, rather, it rests on solid foundations established through extensive discussions and the exchange of ideas and experiences. In laying the groundwork for the project, we reached out to experts and professionals in the field, and received positive affirmation from them that our idea is indeed filling a significant gap. Our goal is to ensure the long-term, secure financial support of the project. Measuring the impact of any project related to social responsibility is remarkably challenging, and we are aware that what we do is just a drop in the ocean, not a systemic solution. We understand that success may not be immediately apparent in this case, but it has become evident that demand for these products continues to be high, just as our enthusiasm and perseverance for the cause. We aim to respond sensitively and effectively to this ongoing need.",
+            "about-p2": "Currently, the project is built on the voluntary efforts of a dozen university students. Some members are involved in applying for grants and financing the project, some focus on the technical and mechanical aspects of the vending machine, there are those who oversee marketing, external appearance, and social media, and some members are dedicated to strategy development, reaching out to experts, and seeking support. At present, a lot of background work is underway, forming the backbone of the project. In the future, we aim to involve on-site workers or collaborate with other university students to ensure the financial stability of the project, such as through grants and fundraising initiatives."
+        },
+        "donate": {
+            "donate-title": "How can you help?",
+            "donate-p1": "First and foremost, we need regular support to finance the replenishment of sanitary pads in the vending machine. We gratefully accept donations of hygiene products or regular financial contributions for this purpose.",
+            "donate-p2": "Currently, we are primarily seeking corporate partners with whom we can establish long-term and regular collaborations. Based on our experience, personal connections are crucial for reaching out to supporters. Therefore, if you know someone who works for a company manufacturing or distributing sanitary pads, or if you are aware of a place where our project aligns with their Corporate Social Responsibility (CSR), please let us know at kapcsolat@szentignac.hu.",
+            "donate-p3": "In the future, there will also be opportunities for individual support, the details of this are still being developed."
+        },
+        "press": {
+            "press-title": "Press"
+        }
+    }
+}
