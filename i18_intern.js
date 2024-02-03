@@ -12,6 +12,9 @@ i18next
     ns: ['common'],
     defaultNS: 'common',
     debug: true,
+    react: {
+      useSuspense: true,
+    },
     backend: {
       loadPath: 'locales/{{lng}}/common.json',
       crossDomain: true
