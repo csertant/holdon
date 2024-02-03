@@ -9,6 +9,8 @@ i18next
   .init({
     lng: 'hu',
     fallbackLng: 'hu',
+    ns: ['common'],
+    defaultNS: 'common',
     debug: true,
     backend: {
       loadPath: 'locales/{{lng}}/common.json',
