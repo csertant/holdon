@@ -59,8 +59,12 @@ header {
     width: 9vh;
     height: 8vh;
 }
+#language-selector {
+    position: relative;
+    float: right;
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   header {
     flex-flow: column;
     height: auto;
@@ -170,7 +174,7 @@ header {
 
 /* Footer */
 footer {
-  height: 25vh;
+  height: 35vh;
   display: flex;
   flex-flow: row;
   align-items: flex-end;

@@ -27,6 +27,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
   </head>
   <body class="" oncontextmenu="return false;">
     <div class="header-hamburger">
@@ -46,6 +47,7 @@
         <a href="#donate" id="nav-link-donate"></a>
         <a href="#insta-content" id="nav-link-insta"></a>
         <a href="#press" id="nav-link-press"></a>
+        <a href="#languages" id="language-selector"><span class="material-symbols-outlined">language</span></a>
       </div>
     </header>
     <section class="head">
@@ -149,6 +151,10 @@
             <img src="./assets/facebook.webp" alt="Facebook logo"/><a href="https://www.facebook.com/HoldOn-projekt-102266192323581" target="_blank">HoldOn projekt</a>
           </div>
         </div>
+        <div class="footer-menus" id="languages">
+          <span class="footer-menu-item"><a href="javascript:i18next.changeLanguage('hu')">hu</a></span>
+          <span class="footer-menu-item"><a href="javascript:i18next.changeLanguage('en')">en</a></span>
+        </div>
         <div class="credits">
           <div id="credits"></div>
           <div>
@@ -160,9 +166,9 @@
       </div>
     </footer>
   </body>
-    <script src="./main.js" type="text/javascript" async defer></script>
-    <script src="https://unpkg.com/i18next/i18next.js"></script>
-    <script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
-    <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
-    <script src="i18_intern.js"></script>
+  <script src="https://unpkg.com/i18next/i18next.js"></script>
+  <script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+  <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+  <script src="i18_intern.js"></script>
+  <script src="./main.js" type="text/javascript" async defer></script>
 </html>
