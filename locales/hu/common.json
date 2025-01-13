@@ -17,7 +17,7 @@
         "footer-link-press": "Sajtó",
         "footer-info": "Holdon Egyesület, Nytsz.: 01-02-0018388, Adószám: 19401021-1-43, Székhely: 1113 Budapest, Villányi út 72. I/1.",
         "credits": "Ikonok: a Freepiktől és a Google-től.",
-        "web-design": "Made with <span class='material-symbols-outlined' style='font-size:small;'>favorite</span> by <a href='https://csertant.hu'>csertant</a>.",
+        "web-design": "Made with <span class='material-symbols-outlined' style='font-size:small;position:relative;top:3px'>favorite</span> by <a href='https://csertant.hu'>csertant</a>.",
         "legal": "&nbsp;HoldOn projekt. Minden jog fenntartva!"
     },
     "content": {
