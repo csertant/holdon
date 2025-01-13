@@ -12,6 +12,7 @@ html {
 
 body {
     font-family: 'Arbutus Slab', serif;
+    --default-color-gray: #888;
     --default-color-raffia: #E9E3BC;
     --default-color-tussock: #BC9C47;
     --default-color-copperrose: #9C6571;
@@ -215,6 +216,7 @@ footer {
   justify-content: center;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: small;
+  color: var(--default-color-gray);
   margin: 2vh 0;
 }
 

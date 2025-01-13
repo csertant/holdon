@@ -42,7 +42,9 @@ i18next
         ['footer-link-donate', 'footer.footer-link-donate'],
         ['footer-link-insta', 'footer.footer-link-insta'],
         ['footer-link-press', 'footer.footer-link-press'],
+        ['footer-info', 'footer.footer-info'],
         ['credits', 'footer.credits'],
+        ['web-design', 'footer.web-design'],
         ['legal', 'footer.legal'],
       ])
       updateElements([
