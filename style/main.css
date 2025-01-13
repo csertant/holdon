@@ -163,6 +163,14 @@ header {
   max-width: 33vw;
   max-height: 80vh;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 1vh 0;
+}
 
 @media screen and (max-width: 850px) {
   .section {
@@ -207,6 +215,11 @@ footer {
   height: 3vh;
   max-width: 3vh;
   margin: 1vw;
+}
+#footer-info {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: small;
+  color: var(--default-color-gray);
 }
 .credits {
   width: 80vw;

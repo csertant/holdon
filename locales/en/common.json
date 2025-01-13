@@ -17,7 +17,7 @@
         "footer-link-press": "Press",
         "footer-info": "Holdon Egyesület, RegN.: 01-02-0018388, Tax number: 19401021-1-43, Address: Villányi út 72. I/1., Budapest 1113, Hungary",
         "credits": "Icons by Freepik & Google.",
-        "web-design": "Made with <span class='material-symbols-outlined'>favorite</span> by <a href='https://csertant.hu'>csertant</a>.",
+        "web-design": "Made with <span class='material-symbols-outlined' style='font-size:small;'>favorite</span> by <a href='https://csertant.hu'>csertant</a>.",
         "legal": "&nbsp;HoldOn project. All rights reserved."
     },
     "content": {
