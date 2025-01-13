@@ -57,6 +57,10 @@ i18next
         ['donate-p1', 'content.donate.donate-p1'],
         ['donate-p2', 'content.donate.donate-p2'],
         ['donate-p3', 'content.donate.donate-p3'],
+        ['donate-li1', 'content.donate.donate-li1'],
+        ['donate-li2', 'content.donate.donate-li2'],
+        ['donate-li3', 'content.donate.donate-li3'],
+        ['donate-li4', 'content.donate.donate-li4'],
         ['press-title', 'content.press.press-title'],
       ])
   }

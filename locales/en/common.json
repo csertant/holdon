@@ -34,7 +34,11 @@
             "donate-title": "How can you help?",
             "donate-p1": "First and foremost, we need regular support to finance the replenishment of sanitary pads in the vending machine. We gratefully accept donations of hygiene products or regular financial contributions for this purpose.",
             "donate-p2": "Currently, we are primarily seeking corporate partners with whom we can establish long-term and regular collaborations. Based on our experience, personal connections are crucial for reaching out to supporters. Therefore, if you know someone who works for a company manufacturing or distributing sanitary pads, or if you are aware of a place where our project aligns with their Corporate Social Responsibility (CSR), please let us know at <strong>holdon@holdonprojekt.hu</strong>.",
-            "donate-p3": "In the future, there will also be opportunities for individual support, the details of this are still being developed."
+            "donate-p3": "<strong>Individual financial support</strong> is also possible by transferring funds to the bank account on the right. Please always indicate in the announcement that you are sending a donation. We are sincerely grateful for all support!",
+            "donate-li1": "<strong>Beneficiary:</strong> Holdon Egyesület",
+            "donate-li2": "<strong>Domestic transfer:</strong> 11600006-00000002-01591369",
+            "donate-li3": "<strong>SEPA/SWIFT transfer:</strong> IBAN: HU74116000060000000201591369, BIC: GIBAHUHBXXX, Erste Bank Hungary Zrt. NEPFURDO U. 24-26, Budapest, Hungary",
+            "donate-li4": "<strong>Announcement:</strong> Donation"
         },
         "press": {
             "press-title": "Press"

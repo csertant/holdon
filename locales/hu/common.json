@@ -33,8 +33,12 @@
         "donate": {
             "donate-title": "Hogyan tudod támogatni a rászorulókat?",
             "donate-p1": "Mindenekelőtt olyan <strong>rendszeres támogatásra van szükségünk</strong>, amelyből az automata betétekkel történő feltöltését finanszírozni tudjuk, ennek érdekében hálával fogadunk akár higiéniai termékeket, akár rendszeres anyagi támogatást.",
-            "donate-p2": "Jelenleg alapvetően <strong>vállalati partnereket keresünk</strong>, akikkel hosszútávú és rendszeres együttműködés alakítható ki. Tapasztalatunk szerint a támogatók megszólításához elengedhetetlenek a személyes kapcsolatok, így arra kérünk, hogy amennyiben van olyan ismerősöd, aki betéteket gyártó vagy betétek forgalmazásával foglalkozó cégnél dolgozik, esetleg olyan helyen, akiknek a CSR-jába passzolhat a projektünk, jelezd nekünk a <strong>holdon@holdonprojekt.hu</strong> email címen.",
-            "donate-p3": "A jövőben lesz lehetőség egyéni támogatásra is, ennek keretei még kialakítás alatt állnak."
+            "donate-p2": "Jelenleg elsősorban <strong>vállalati partnereket keresünk</strong>, akikkel hosszútávú és rendszeres együttműködés alakítható ki. Tapasztalatunk szerint a támogatók megszólításához elengedhetetlenek a személyes kapcsolatok, így arra kérünk, hogy amennyiben van olyan ismerősöd, aki betéteket gyártó vagy betétek forgalmazásával foglalkozó cégnél dolgozik, esetleg olyan helyen, akiknek a CSR-jába passzolhat a projektünk, jelezd nekünk a <strong>holdon@holdonprojekt.hu</strong> email címen.",
+            "donate-p3": "<strong>Egyéni anyagi támogatásra</strong> is van lehetőség a jobb oldalon található bankszámlára történő utalással. Kérjük, közleményben mindig tüntesd fel, hogy adományt küldesz. Minden támogatást hálásan köszönünk!",
+            "donate-li1": "<strong>Kedvezményezett:</strong> Holdon Egyesület",
+            "donate-li2": "<strong>Belföldi átutalás:</strong> 11600006-00000002-01591369",
+            "donate-li3": "<strong>Külföldről érkező átutalás:</strong> IBAN: HU74116000060000000201591369, BIC: GIBAHUHBXXX, Erste Bank Hungary Zrt. NEPFURDO U. 24-26, Budapest, Hungary",
+            "donate-li4": "<strong>Közlemény:</strong> Adomány"
         },
         "press": {
             "press-title": "Sajtó"
