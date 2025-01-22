@@ -227,6 +227,7 @@ footer {
   font-size: small;
   color: var(--default-color-gray);
   margin: 2vh 2vh;
+  text-align: center;
 }
 .credits {
   width: 80vw;
